@@ -26,7 +26,8 @@ int main(void) {
    binnum[i] = '\0';
 
 
-/* Count the digits in a strring */
+
+/* Count the binary digits in a strring */
          /* Inicialize the variable */
          numdigits = 0;
          /* Go through the string until is terminated */
@@ -35,12 +36,12 @@ int main(void) {
         { if(binnum[i]=='0' || binnum[i]=='1')
         numdigits++;
         }
-
-
 /* print the numbe of digits in a string*/
    printf("The number of digits is %d\n",numdigits);
 
-/* Ccount binary digits: solution in class*/
+
+
+/* Count the binary digits -class solution*/
        /* Declare variable*/
         int nd;
         nd = ceil(logf(fnum)/logf(2)); //incorporate math lib at conversion "-lm"
@@ -50,19 +51,20 @@ int main(void) {
 
 
 
-/*Understanding Ceil function*/
+/*Understanding Ceil function - remove the comments under if you want to run and print the result*/
 //	float  a=10.3;
 //	printf("a=%lf \n", ceil(a));
 
 
-/* Understanding logf function*/
-	float b=2;
-	printf("b=%lf \n", logf(b));
+/* Understanding logf function - remove the comments under if you want to run and print the result */
+//	float b=2;
+//	printf("b=%lf \n", logf(b));
 
 
-
-   printf("inum=%d,  fnum=%f, inum in binary=%s\n",
+	printf("inum=%d,  fnum=%f, inum in binary=%s\n",
       inum,fnum,binnum);
 
+
 }
+
 
