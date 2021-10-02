@@ -40,13 +40,13 @@ int main(void) {
 /* print the numbe of digits in a string*/
    printf("The number of digits is %d\n",numdigits);
 
-/* Another way to count the digits on the binary number (without string)*/
+/* Ccount binary digits: solution in class*/
        /* Declare variable*/
-//        int nd;
-//        nd = ceil(logf(fnum)/logf(2)); //incorporate math lib at conversion "-lm"
+        int nd;
+        nd = ceil(logf(fnum)/logf(2)); //incorporate math lib at conversion "-lm"
 
 /* Print the new number of binary digits*/
-//        printf("Using ceil and logf functions, the number of digitis is %d\n",nd);
+        printf("Using ceil and logf functions, the number of digitis is %d\n",nd);
 
 /*Understanding Ceil function*/
 //float  a=10.3;
