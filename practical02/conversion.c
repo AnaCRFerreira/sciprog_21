@@ -48,14 +48,16 @@ int main(void) {
 /* Print the new number of binary digits*/
         printf("Using ceil and logf functions, the number of digitis is %d\n",nd);
 
+
+
 /*Understanding Ceil function*/
-	float  a=10.3;
-	printf("a=%lf \n", ceil(a));
+//	float  a=10.3;
+//	printf("a=%lf \n", ceil(a));
 
 
 /* Understanding logf function*/
-//float b=2;
-//printf("b=%lf \n", logf(b));
+	float b=2;
+	printf("b=%lf \n", logf(b));
 
 
 
