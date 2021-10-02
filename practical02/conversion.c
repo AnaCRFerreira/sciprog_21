@@ -49,8 +49,8 @@ int main(void) {
         printf("Using ceil and logf functions, the number of digitis is %d\n",nd);
 
 /*Understanding Ceil function*/
-//float  a=10.3;
-//printf("a=%lf \n", ceil(a));
+	float  a=10.3;
+	printf("a=%lf \n", ceil(a));
 
 
 /* Understanding logf function*/
