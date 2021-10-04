@@ -25,14 +25,11 @@ int main(void) {
 /* Terminate the string */
    binnum[i] = '\0';
 
-printf("i= %d,\n", i);
 
+/*Complite the expression*/
 /* Count the binary digits */
-       
-        numdigits =  ceil(logf(fnum)/logf(2)); //incorporate math lib at conversion "-lm"
-
-/* Print the number of binary digits*/
-	 printf("The number of digits is %d\n",numdigits);
+	numdigits= ceil(log2f(inum));
+	printf("The number of digits is %d\n",numdigits);
 
 
 
