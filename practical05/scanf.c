@@ -7,7 +7,7 @@ int main(void) {
 	// Enter information from user
 	printf("Enter an int and double, separately by (,)\n");
 		
-	scanf("%d %lf",&i,&a);
+	scanf("%d, %lf",&i,&a);
 	
 	printf("You have entered %d, and %lf\n", i, a);
 
