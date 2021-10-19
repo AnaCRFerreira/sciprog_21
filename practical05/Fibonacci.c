@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 //declare subroutine
 void fibonacci(int *Fn_1, int *Fn_2);
@@ -7,9 +8,14 @@ int main(){
 
 	//declare variable
 	int n, i;
-	printf("Enter value of n:\n");
+	printf("Enter a positive integer for n:\n");
 	scanf("%d", &n);
 	
+	if (n<1){
+		printf("Number less than 1\n");
+		exit(1); //stop the program
+	}
+
 	//declare two integer corresponding to F-1 and F-2
 	int Fn_1=1;
         int Fn_2=-1;
