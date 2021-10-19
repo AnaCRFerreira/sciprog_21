@@ -7,14 +7,14 @@ double arctanh2(const double x);
 
 int main(){
 	double prec;
-	print("Enter precision for the Maclaurin series:\n");
+	printf("Enter precision for the Maclaurin series:\n");
 	scanf("%lf", &prec);
 
 	double begin, end;
 	printf("Enter the start and finish points for x:\n");
 	scanf("%lf, %lf", &begin, &end);
 	
-	dounle a=((fabs(begin) + fabs(end))/prec) +1;
+	double a=((fabs(begin) + fabs(end))/prec) +1;
 	
 	//cast as an integer
 	int asize=a;
@@ -29,8 +29,7 @@ int main(){
 	for(i=begin; i<=end; i+=prec){
 		tan1[j] = arctanh1(i, prec);
 		tan2[j]=arctanh2(i);
-		printf("The difference between tan1[%.3lf] and 
-tan2[%.3lf] is %.10lf.\n", i, i, fabs(tan1[j]-tan2[j]));
+		printf("The difference between tan1[%.3lf] and tan2[%.3lf] is %.10lf.\n", i, i, fabs(tan1[j]-tan2[j]));
 		j++;
 		
 	}
