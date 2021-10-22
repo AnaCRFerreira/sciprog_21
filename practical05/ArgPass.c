@@ -3,7 +3,7 @@
 void swap(int *px, int *py);
 
 int main(void) {
-        //Declare two  integrers	
+        //Declare two integers	
 	int a,b;
 	a = 1; b = 2;
 
@@ -25,7 +25,7 @@ void swap(int *px,int *py) {
 	int temp;
 
 	//px is given the r-value of py and
-	//py is given the t-value of px
+	//py is given the r-value of px
 	temp = *px; *px = *py;
 	*py = temp;
 
