@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
 //declare subroutine
 double cot(void *px, int type);
 
@@ -25,7 +24,7 @@ int main(void) {
 }
 
 
-//Function that switches the variable type to doule
+//Function that switches the variable type to double
 double cot(void *px, int type) {
 
 	//Declare variable
