@@ -1,11 +1,11 @@
 # matmult.c
 
-_matmult.c_ Calculates the multiplication of 2 matrix and prints out the three matrix A, 
+_matmult.c_ calculates the multiplication of 2 matrix and prints out the three matrix A, 
 B and C.
 
 To run:
 ```
-gcc -o matmult matmult.c && /matmult
+gcc -o matmult matmult.c && ./matmult
 ```
 
 # Step6
