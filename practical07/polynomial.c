@@ -80,3 +80,8 @@ exp(1) - array_of_terms[i]);
 	return 0;
 }
 
+/*Comments:
+After the term 13, the estimente difference between accurate and approximated values 
+shifts to negative values.
+
+*/
