@@ -83,5 +83,11 @@ exp(1) - array_of_terms[i]);
 /*Comments:
 After the term 13, the estimente difference between accurate and approximated values 
 shifts to negative values.
-
+Variables have minimum and maximum limits to store values. 
+The maximum specifies that a variable can not store any value beyond this 
+limits. 
+The minimum specifies that a variable can not store any value below this 
+limit.
+When they reach those limits the value shifts between the maximum and minimum 
+value the variable can save.
 */
