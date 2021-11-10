@@ -5,6 +5,8 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
+
 
 //declare iteractive function to calculate gcd
 int iteractiveGCD(int a, int b);
