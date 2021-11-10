@@ -26,8 +26,15 @@ int main(void){
 		return 1;
 	}
 
-	//Call interactive function to calculate gcd inside the print
+	//Call interactive function to calculate gcd (inside the print) 
+	//and print out the result
 	printf("Iteractive gcd(%d, %d)=%d\n", a ,b, iteractiveGCD(a,b));
+
+        //Call recursive function to calculate gcd (inside the print)
+        //and print out the result
+        printf("Recursive gcd(%d, %d)=%d\n", a ,b, recursiveGCD(a,b));
+
+
 
 	return 0;
 }
@@ -46,6 +53,16 @@ int iteractiveGCD(int a, int b){
 	}
 
 	return a;
+}
+
+//define recursive function to calculate gcd
+int recursiveGCD(int a, int b){
+	if(b==0){
+		return a;
+	}
+	else{
+		return(recursiveGCD(b, a%b));
+	}
 }
 
 
