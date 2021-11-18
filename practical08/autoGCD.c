@@ -21,8 +21,8 @@ int main(){
 
 	//Generate 2 positive integers between 1  and 12
 	srand(time(NULL));
-	a=(rand() % 11)+1; //+1 avoid dealing with 0
-	b=(rand() % 11)+1;
+	a=(rand() % 12)+1; //generate number between min and max 
+	b=(rand() % 12)+1;
 
 
 
