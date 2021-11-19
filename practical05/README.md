@@ -21,6 +21,7 @@ gcc -o cot cot.c && ./cot
 # scanf.c
 
 _scanf.c_ script to test and understand scanf().
+
 To run _scanf.c_:
 ```
 gcc -o scanf scanf.c && ./scanf
@@ -50,7 +51,7 @@ gcc -o Fibonacci Fibonacci.c && ./Fibonacci
 # HypTang.c
 
 _HypTang.c_ script that calculates the Inverse Hyperbolic Tangent using two methods.
-Enter the start and finish points of the serie separated by ','.
+Enter the start and finish points of the serie separated by comma.
 
 To run:
 ```
