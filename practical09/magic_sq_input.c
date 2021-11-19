@@ -27,7 +27,7 @@ int main (){
 		}
 	}
 
-	printf("The suqare %s magic.\n", isMagicSquare(magicSquare, n)? "is" : 
+	printf("The square %s magic.\n", isMagicSquare(magicSquare, n)? "is" : 
 "is NOT");
 
 	//Free memory of each row
